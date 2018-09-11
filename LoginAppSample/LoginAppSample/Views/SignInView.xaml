@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginAppSample.Views.SignInView"                                                                   
+             xmlns:ex="clr-namespace:Xamarin.Forms.ToolKit.Extensions;assembly=Xamarin.Forms.ToolKit.Extensions"                  
+             BindingContext="{Binding SignIn, Source={StaticResource Locator}}">
+
+    <ContentView ControlTemplate="{StaticResource MyLoginTemplate}"
+                 BackgroundColor="White">
+
+        <StackLayout VerticalOptions="FillAndExpand">
+
+            <StackLayout VerticalOptions="EndAndExpand"
+                         Spacing="-10">
+
+                <Entry Style="{StaticResource MyEntryStyle}"
+                       Text="{Binding Path=User.Email, Mode=TwoWay}"
+                       Placeholder="{ex:Translate Key=EMAIL_PLACEHOLDER}"/>
+
+                <Entry IsPassword="True"
+                       Style="{StaticResource MyEntryStyle}"
+                       Text="{Binding Path=User.Password, Mode=TwoWay}"
+                       Placeholder="{ex:Translate Key=PASSWORD_PLACEHOLDER}"/>
+
+                <Button Style="{StaticResource BtnGray}"
+                        Command="{Binding Path=SignInCommand}"
+                        Text="{ex:Translate Key=SIGN_IN_TEXT}"/>
+
+                <Button Style="{StaticResource BtnPink}"
+                        Text="{ex:Translate Key=SIGN_UP_TEXT}"
+                        Command="{Binding Path=SignUpCommand}"/>
+
+                <Button Style="{StaticResource BtnGray}"
+                        Command="{Binding Path=ForgotPasswordCommand}"
+                        Text="{ex:Translate Key=FORGOT_PASSWORD_TEXT}"/>
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentView>
+
+</ContentPage>

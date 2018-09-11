@@ -1,0 +1,187 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "ca66a40c135793141ad74c87faec305f98aea7d5"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "LoginAppSample/1.0.0": {
+        "dependencies": {
+          "CommonServiceLocator": "2.0.3",
+          "MvvmLightLibs": "5.4.1",
+          "NETStandard.Library": "2.0.3",
+          "Xamarin.Forms": "2.5.0.122203",
+          "Xamarin.Forms.Navigation": "1.0.1",
+          "Xamarin.Forms.Popups": "1.0.0",
+          "Xamarin.Forms.ToolKit.Behaviors": "1.0.2",
+          "Xamarin.Forms.ToolKit.Controls": "1.0.2",
+          "Xamarin.Forms.ToolKit.Converters": "1.0.0",
+          "Xamarin.Forms.ToolKit.Extensions": "1.0.4"
+        },
+        "runtime": {
+          "LoginAppSample.dll": {}
+        }
+      },
+      "CommonServiceLocator/2.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MvvmLightLibs/5.4.1": {
+        "runtime": {
+          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/net45/GalaSoft.MvvmLight.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Xamarin.Forms/2.5.0.122203": {
+        "runtime": {
+          "lib/netstandard1.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard1.0/Xamarin.Forms.Platform.dll": {},
+          "lib/netstandard1.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "Xamarin.Forms.Navigation/1.0.1": {
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Navigation.dll": {}
+        }
+      },
+      "Xamarin.Forms.Popups/1.0.0": {
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Popups.dll": {}
+        }
+      },
+      "Xamarin.Forms.ToolKit.Behaviors/1.0.2": {
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.ToolKit.Behaviors.dll": {}
+        }
+      },
+      "Xamarin.Forms.ToolKit.Controls/1.0.2": {
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.ToolKit.Controls.dll": {}
+        }
+      },
+      "Xamarin.Forms.ToolKit.Converters/1.0.0": {
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.ToolKit.Converters.dll": {}
+        }
+      },
+      "Xamarin.Forms.ToolKit.Extensions/1.0.4": {
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.ToolKit.Extensions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LoginAppSample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommonServiceLocator/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AWao0d/oTooOpf4IXPFP+Ol7VrT/r9pAg0/cMYk2se3QaibYUHdlk93blt5pe7ByGeJoBd7ZNE/gZsAI54UCpA==",
+      "path": "commonservicelocator/2.0.3",
+      "hashPath": "commonservicelocator.2.0.3.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MvvmLightLibs/5.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eh2cvxDG78CQ6tfkCAW9Y7H1lQ+iV8U+XI7WDXn8BoDhZrr43hDPJyEJwoZ1yeybEDnQTaiRTavlAxf6CHeNUg==",
+      "path": "mvvmlightlibs/5.4.1",
+      "hashPath": "mvvmlightlibs.5.4.1.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Xamarin.Forms/2.5.0.122203": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qg7A2IXbVV/5u9qqeiDhRMwpVEsbWKBxzeAtD0rTuntmaDB1Z7WuBg5IK2VBklJbKe2Ps8V9zBfEwgJIqPVJUw==",
+      "path": "xamarin.forms/2.5.0.122203",
+      "hashPath": "xamarin.forms.2.5.0.122203.nupkg.sha512"
+    },
+    "Xamarin.Forms.Navigation/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yvle2R0MDnFU149ICaMH5brFzXYmdz3ObmAVfpb73Ayhf4o+HoH4XSuQJSqU99Rmiep0hOHvb9iRL3allv6WUQ==",
+      "path": "xamarin.forms.navigation/1.0.1",
+      "hashPath": "xamarin.forms.navigation.1.0.1.nupkg.sha512"
+    },
+    "Xamarin.Forms.Popups/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AYxpEW8wUwseRLefYqKjS1dxVIgF5A9GXEqmmFpT9k4rhAvmpb7rGFwG0rh/VF0Fss6m8Q8rfjFqmKi4SqhJrw==",
+      "path": "xamarin.forms.popups/1.0.0",
+      "hashPath": "xamarin.forms.popups.1.0.0.nupkg.sha512"
+    },
+    "Xamarin.Forms.ToolKit.Behaviors/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+8G8oH/YYm4b0/t837IzyUBBgxPL2n3VGm9Du5ITLevfmjI7Ed6+0PKBpYhzv21xaNZiW3ix478Kk6S1MF/rQg==",
+      "path": "xamarin.forms.toolkit.behaviors/1.0.2",
+      "hashPath": "xamarin.forms.toolkit.behaviors.1.0.2.nupkg.sha512"
+    },
+    "Xamarin.Forms.ToolKit.Controls/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oRxQSCkv9wyqHoB65RPskBbW0SBSSc1nZYnPH3R/eg9etyQFnwbNtjtGnj/2P7UtoD+63/4vFEBDgcR+cQLTxQ==",
+      "path": "xamarin.forms.toolkit.controls/1.0.2",
+      "hashPath": "xamarin.forms.toolkit.controls.1.0.2.nupkg.sha512"
+    },
+    "Xamarin.Forms.ToolKit.Converters/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5XpcubPG8V8BhHZuXB6IYubnM63xCnw4u4j3xr8QTZY3bLUItTdnakf9jMtgfwvDvoaIymzfQSNfDt45PIhMeg==",
+      "path": "xamarin.forms.toolkit.converters/1.0.0",
+      "hashPath": "xamarin.forms.toolkit.converters.1.0.0.nupkg.sha512"
+    },
+    "Xamarin.Forms.ToolKit.Extensions/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yqsv4Beih2sn7U9YB3hOrMm+vbzm90nuoET7u19oS+c1of2mF82OxheClioKeVTqt+0vJco9MNdJhJwDjCL8Xw==",
+      "path": "xamarin.forms.toolkit.extensions/1.0.4",
+      "hashPath": "xamarin.forms.toolkit.extensions.1.0.4.nupkg.sha512"
+    }
+  }
+}

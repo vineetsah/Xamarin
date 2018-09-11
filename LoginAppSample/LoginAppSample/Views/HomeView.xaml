@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginAppSample.Views.HomeView"
+             BackgroundColor="White"
+             Title="{ex:Translate Key=HOME_TITLE}"                          
+             xmlns:ex="clr-namespace:Xamarin.Forms.ToolKit.Extensions;assembly=Xamarin.Forms.ToolKit.Extensions"
+             BindingContext="{Binding Home, Source={StaticResource Locator}}">
+
+    <ContentView ControlTemplate="{StaticResource MyAppTemplate}"
+                 BackgroundColor="White">
+
+        <StackLayout>
+
+            <Image Source="{ex:ImageResource Key=ic_sample.png}"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="{Binding Path=WelcomeText}"
+                   Margin="12,0,12,0"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"/>
+
+            <Button Style="{StaticResource BtnGray}" 
+                    Text="{ex:Translate Key=DETAILS_TITLE}"                   
+                    Command="{Binding Path=NavigateToCommand}"
+                    CommandParameter="DetailsView"/>
+
+        </StackLayout>
+
+    </ContentView>
+
+</ContentPage>

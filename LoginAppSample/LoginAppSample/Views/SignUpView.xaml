@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginAppSample.Views.SignUpView"
+             xmlns:ex="clr-namespace:Xamarin.Forms.ToolKit.Extensions;assembly=Xamarin.Forms.ToolKit.Extensions"             
+             BindingContext="{Binding SignUp, Source={StaticResource Locator}}">
+
+    <ContentView ControlTemplate="{StaticResource MyLoginTemplate}"
+                 BackgroundColor="White">
+
+        <Grid VerticalOptions="FillAndExpand">
+
+            <StackLayout Spacing="-10"
+                         VerticalOptions="EndAndExpand">
+
+                <Entry Style="{StaticResource MyEntryStyle}"
+                       Text="{Binding Path=User.Username, Mode=TwoWay}"                     
+                       Placeholder="{ex:Translate Key=USERNAME_PLACEHOLDER}"/>
+
+                <Entry Style="{StaticResource MyEntryStyle}"
+                       Text="{Binding Path=User.Email, Mode=TwoWay}"
+                       Placeholder="{ex:Translate Key=EMAIL_PLACEHOLDER}"/>
+
+                <Entry IsPassword="True"
+                       Style="{StaticResource MyEntryStyle}"
+                       Text="{Binding Path=User.Password, Mode=TwoWay}"
+                       Placeholder="{ex:Translate Key=PASSWORD_PLACEHOLDER}"/>
+
+                <Entry IsPassword="True"
+                       Style="{StaticResource MyEntryStyle}"
+                       Text="{Binding Path=ConfirmPassword, Mode=TwoWay}"
+                       Placeholder="{ex:Translate Key=CONFIRM_PASSWORD_PLACEHOLDER}"/>
+
+                <Button Style="{StaticResource BtnGray}"
+                        Command="{Binding Path=SignUpCommand}"
+                        Text="{ex:Translate Key=SIGN_UP_TEXT}"/>
+
+                <Button Style="{StaticResource BtnPink}"
+                        Command="{Binding Path=SignInCommand}"
+                        Text="{ex:Translate Key=SIGN_IN_TEXT}"/>
+
+            </StackLayout>
+
+        </Grid>
+
+    </ContentView>
+
+</ContentPage>
